@@ -11,5 +11,22 @@ $(document).on('ready', function() {
   	$("#li").append("<li>listicles</li>");
   });
 
+  $("p").hover(function (){
+  	$("p").addClass("peach");},	
+  function() {
+  	$("p").removeClass("peach")
+  });
+
+  $("h2").click(function() {
+	  	$("h2").append("!!!");
+	  });
+  $("h2").click(function() {
+	  	$("h2").remove("!!!");
+	  });
+
+  $('a').click(function() {
+  	$('.confirmBox').show(2000);
+  });
+
 
 });

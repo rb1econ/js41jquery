@@ -1,0 +1,15 @@
+body {
+	padding: 60px;
+}
+
+
+
+
+.peach {
+	color: peachpuff;
+}
+
+.confirmBox {
+	display: none;
+	z-index: 99999999999;
+}
